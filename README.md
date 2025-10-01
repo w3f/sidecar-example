@@ -1,6 +1,6 @@
-# Simple Substrate Block Explorer
+# Sidecar Block Explorer Example
 
-A clean, single-page block explorer built with Next.js and Substrate API Sidecar. This serves as a template for building blockchain explorers for Substrate-based networks.
+A clean, single-page block explorer built with Next.js and [Substrate API Sidecar](https://github.com/paritytech/substrate-api-sidecar). This serves as a template for building blockchain explorers for Polkadot SDK-based networks.
 
 ## Quick Start
 
@@ -8,7 +8,7 @@ A clean, single-page block explorer built with Next.js and Substrate API Sidecar
 # Install dependencies
 npm install
 
-# Start your local Substrate node with Sidecar
+# Start your local Polkadot SDK node
 # Make sure Sidecar is running on http://127.0.0.1:8080
 
 # Run development server
@@ -17,7 +17,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) to see the block explorer.
 
-This explorer uses **Next.js API Route Handlers** to proxy requests to your local Substrate API Sidecar instance, avoiding CORS issues
+This explorer uses **Next.js API Route Handlers** to proxy requests to your local Sidecar instance, avoiding CORS issues
 
 #### API Routes
 
@@ -36,7 +36,7 @@ export const NETWORK_SYMBOL = 'UNIT';                     // Change token symbol
 
 ## Prerequisites
 
-1. **Substrate Node**: Running locally or remotely
+1. **Polkadot SDK Node**: Running locally or remotely (i.e., you can use a remote RPC endpoint for any Polkadot SDK-based network)
 2. **Substrate API Sidecar**: Connected to your node
 
 ### Setting up Sidecar
