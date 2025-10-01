@@ -69,7 +69,6 @@ The code is intentionally simple to make it easy to extend:
 1. **Add account lookup**: Create `/api/accounts/[address]/route.ts`
 2. **Add more endpoints**: Follow the same pattern for other Sidecar endpoints  
 3. **Add network selector**: Support multiple networks in one interface
-4. **Add real-time updates**: Use WebSockets for live block updates
 
 ### Styling
 
